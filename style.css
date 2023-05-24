@@ -145,28 +145,23 @@
   max-width: 1200px;
 }
 
-/* add some padding to the section */
 .section {
   padding: 2rem;
 }
 
-/* make the header font size larger for smaller screens */
+
 @media (max-width: 576px) {
   .section__header {
     font-size: 1.5rem;
   }
 }
 
-/* create a flexbox layout for the blocks */
-
-/* style the blocks */
 .block-1,
 .block-2 {
   width: 100%;
   margin-bottom: 1.5rem;
 }
 
-/* adjust the block size for smaller screens */
 @media (max-width: 768px) {
   .block-1,
   .block-2 {
@@ -174,7 +169,6 @@
   }
 }
 
-/* add a border and shadow to the blocks */
 .block-1,
 .block-2,
 .block-3 {
@@ -201,13 +195,11 @@
   font-weight: bold;
 }
 
-/* make the images scale with their container */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* add some margin between the blocks */
 .block-1,
 .block-2,
 .block-3 {
